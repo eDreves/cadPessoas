@@ -2,7 +2,7 @@
 
 const config       = require('config')
 const mongo        = require('../db/mongo')
-const {collection} = config.get('mongo.local')
+const {collection} = config.get('mongo.prod')
 
 
 module.exports = {
