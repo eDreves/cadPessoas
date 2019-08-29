@@ -1,0 +1,29 @@
+{
+  "name": "cadpessoas",
+  "version": "1.0.0",
+  "description": "Cadastro de pessoas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eDreves/cadPessoas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eDreves/cadPessoas/issues"
+  },
+  "homepage": "https://github.com/eDreves/cadPessoas#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.2.2",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "mongojs": "^2.6.0",
+    "mongoose": "^5.6.11",
+    "nodemon": "^1.19.1"
+  }
+}

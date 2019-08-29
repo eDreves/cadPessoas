@@ -1,0 +1,20 @@
+{
+	"mongo": {
+		"local": {
+			"username": "",
+			"password": "",
+			"server": "localhost",
+			"port": 27017,
+			"database": "node_api",
+			"collection": "node_api"
+		},
+
+		"prod": {
+			"username": "root",
+			"password": "root123",
+			"server": "ds031088.mlab.com",
+			"port": "31088",
+			"database": "db_pessoas"
+		}
+	}
+}
